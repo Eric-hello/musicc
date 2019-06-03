@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>MUSIC player</title>
+<title>jQuery支持PC手机音乐播放器插件</title>
 <link rel="stylesheet" href="css/style.css"/>
 <link rel="stylesheet" href="css/styles.css"/>
 </head>
@@ -28,6 +28,14 @@
     $(function () {
         var myPlaylist = [
             {
+                mp3:'playlist/despacito.mp3',
+                duration:'2:21',
+                cover:'playlist/covers/despacito.png',
+                title:'An amazinf song',
+                artist:'Luis Fonsi',
+                background:'playlist/covers/bg.jpg'
+            },
+            {
                 mp3:'playlist/Sugar.mp3',
                 duration:'3:55',
                 cover:'playlist/covers/Maroon5.jpg',
@@ -41,14 +49,6 @@
                 cover:'playlist/covers/jay.jpg',
                 title:'你听得到 - 无与伦比演唱会',
                 artist:'周杰伦',
-                background:'playlist/covers/bg.jpg'
-            },
-	    {
-                mp3:'playlist/despacito.mp3',
-                duration:'3:52',
-                cover:'playlist/covers/despacito.png',
-                title:'A creasy musci',
-                artist:'Luis Fonsi,
                 background:'playlist/covers/bg.jpg'
             }
         ];
